@@ -1,1 +1,0 @@
-<div id="footer"><p align="center">Copyright © 2014 Chien Design. All rights reserved.</p></div>
