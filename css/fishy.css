@@ -1,0 +1,201 @@
+.floating-bird{width:30px;height:40px;position:absolute;background:url(../images/sprit.png) no-repeat 0 0}
+@keyframes bird-1{
+	0%{top:50px;left:110%}
+	35%{top:100px;left:75%}
+	60%{top:60px;left:50%}
+	75%{top:90px;left:25%}
+	100%{top:40px;left:-10%}
+}
+@-moz-keyframes bird-1{
+	0%{top:50px;left:110%}
+	35%{top:100px;left:75%}
+	60%{top:60px;left:50%}
+	75%{top:90px;left:25%}
+	100%{top:40px;left:-10%}
+}
+@-webkit-keyframes bird-1{
+	0%{top:50px;left:110%}
+	35%{top:100px;left:75%}
+	60%{top:60px;left:50%}
+	75%{top:90px;left:25%}
+	100%{top:40px;left:-10%}
+}
+@-o-keyframes bird-1{
+	0%{top:50px;left:110%}
+	35%{top:100px;left:75%}
+	60%{top:60px;left:50%}
+	75%{top:90px;left:25%}
+	100%{top:40px;left:-10%}
+}
+@-ms-keyframes bird-1{
+	0%{top:50px;left:110%}
+	35%{top:100px;left:75%}
+	60%{top:60px;left:50%}
+	75%{top:90px;left:25%}
+	100%{top:40px;left:-10%}
+}
+
+@keyframes bird-2{
+	0%{top:10px;left:-10%}
+	25%{top:30px;left:25%}
+	40%{top:80px;left:50%}
+	85%{top:60px;left:75%}
+	100%{top:100px;left:110%}
+}
+@-moz-keyframes bird-2{
+	0%{top:10px;left:-10%}
+	25%{top:30px;left:25%}
+	40%{top:100px;left:50%}
+	85%{top:60px;left:75%}
+	100%{top:100px;left:110%}
+}
+@-webkit-keyframes bird-2{
+	0%{top:10px;left:-10%}
+	25%{top:30px;left:25%}
+	40%{top:100px;left:50%}
+	85%{top:60px;left:75%}
+	100%{top:100px;left:110%}
+}
+@-o-keyframes bird-2{
+	0%{top:10px;left:-10%}
+	25%{top:30px;left:25%}
+	40%{top:100px;left:50%}
+	85%{top:60px;left:75%}
+	100%{top:100px;left:110%}
+}
+@-ms-keyframes bird-2{
+	0%{top:10px;left:-10%}
+	25%{top:30px;left:25%}
+	40%{top:100px;left:50%}
+	85%{top:60px;left:75%}
+	100%{top:100px;left:110%}
+}
+
+@keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -40px}
+	50.001%,100%{background-position:-30px -40px}
+}
+@-moz-keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -40px}
+	50.001%,100%{background-position:-30px -40px}
+}
+@-webkit-keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -40px}
+	50.001%,100%{background-position:-30px -40px}
+}
+@-o-keyframes sprit-bird-rl{
+	0%,50.000%{background-position:0 -40px}
+	50.001%,100%{background-position:-30px -40px}
+}
+@-ms-keyframes "sprit-bird-rl"{
+	0%,50.000%{background-position:0 -40px}
+	50.001%,100%{background-position:-30px -40px}
+}
+
+@keyframes "sprit-bird-lr" {
+	0%,50.000% {background-position: 0 0;}
+	50.001%,100% {background-position: -30px 0;}
+}
+@-moz-keyframes sprit-bird-lr {
+	0%,50.000% {background-position: 0 0;}
+	50.001%,100% {background-position: -30px 0;}
+}
+@-webkit-keyframes "sprit-bird-lr" {
+	0%,50.000% {background-position: 0 0;}
+	50.001%,100% {background-position: -30px 0;}
+}
+@-o-keyframes sprit-bird-lr {
+	0%,50.000% {background-position: 0 0;}
+	50.001%,100% {background-position: -30px 0;}
+}
+@-ms-keyframes "sprit-bird-lr" {
+	0%,50.000% {background-position: 0 0;}
+	50.001%,100% {background-position: -30px 0;}
+}
+
+
+#bird-1{
+	width:30px;height:40px;position:absolute;top:230px;left:110%;background:url(../images/sprit.png) no-repeat 0 -40px;z-index:8;	
+	-webkit-animation:bird-1 20s infinite linear, sprit-bird-rl 200ms infinite linear;
+	-moz-animation:bird-1 20s infinite linear, sprit-bird-rl 200ms infinite linear;
+	-o-animation:bird-1 20s infinite linear, sprit-bird-rl 200ms infinite linear;
+	-ms-animation:bird-1 20s infinite linear, sprit-bird-rl 200ms infinite linear;
+	animation:bird-1 20s infinite linear, sprit-bird-rl 200ms infinite linear;
+}
+#bird-2{
+	width:30px;height:40px;position:absolute;top:230px;left:-10%;background:url(../images/sprit.png) no-repeat 0 -40px;z-index:7;	
+	-webkit-animation:bird-2 30s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-moz-animation:bird-2 30s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-o-animation:bird-2 30s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-ms-animation:bird-2 30s infinite linear, sprit-bird-lr 200ms infinite linear;
+	animation:bird-2 30s infinite linear, sprit-bird-lr 200ms infinite linear;
+}
+#bird-3{
+	width:30px;height:40px;position:absolute;top:230px;left:-10%;background:url(../images/sprit.png) no-repeat 0 -40px;z-index:7;	
+	-webkit-animation:bird-2 25s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-moz-animation:bird-2 25s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-o-animation:bird-2 25s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-ms-animation:bird-2 25s infinite linear, sprit-bird-lr 200ms infinite linear;
+	animation:bird-2 25s infinite linear, sprit-bird-lr 200ms infinite linear;
+	-webkit-animation-delay:10s;
+	-moz-animation-delay:10s;
+	-o-animation-delay:10s;
+	-ms-animation-delay:10s;
+	animation-delay:10s;
+}
+
+
+.floating-run{width:30px;height:20px;position:absolute;background:url(../images/run.png) no-repeat 0 0}
+
+#run-1{
+	width:40px;height:18px;position:absolute;top:305px;left:110%;background:url(../images/run.png) no-repeat 0 0;z-index:8;	
+	-webkit-animation:run-1 3s infinite linear, sprit-run-rl 200ms infinite linear;
+	-moz-animation:run-1 3s infinite linear, sprit-run-rl 200ms infinite linear;
+	-o-animation:run-1 3s infinite linear, sprit-run-rl 200ms infinite linear;
+	-ms-animation:run-1 3s infinite linear, sprit-run-rl 200ms infinite linear;
+	animation:run-1 3s infinite linear, sprit-run-rl 200ms infinite linear;
+}
+
+@keyframes run-1{
+
+	100%{top:305px;left:-50%}
+}
+@-moz-keyframes run-1{
+
+	100%{top:305px;left:-50%}
+}
+@-webkit-keyframes run-1{
+
+	100%{top:305px;left:-50%}
+}
+@-o-keyframes run-1{
+
+	100%{top:305px;left:-50%}
+}
+@-ms-keyframes run-1{
+
+	100%{top:305px;left:-50%}
+}
+
+@keyframes sprit-run-rl{
+	0%,50.000%{background-position:0 0px}
+	50.001%,100%{background-position:-40px 0px}
+}
+@-moz-keyframes sprit-run-rl{
+	0%,50.000%{background-position:0 0px}
+	50.001%,100%{background-position:-40px 0px}
+}
+@-webkit-keyframes sprit-run-rl{
+	0%,50.000%{background-position:0 0px}
+	50.001%,100%{background-position:-40px 0px}
+}
+@-o-keyframes sprit-run-rl{
+	0%,50.000%{background-position:0 0px}
+	50.001%,100%{background-position:-40px 0px}
+}
+@-ms-keyframes "sprit-run-rl"{
+	0%,50.000%{background-position:0 0px}
+	50.001%,100%{background-position:-40px 0px}
+}
+
+
