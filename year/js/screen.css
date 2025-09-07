@@ -884,53 +884,75 @@ img {
     margin-right: 2.12766%;
   }
 }
-h2.more-view {
-  margin-top: 15px;
-  font-size: 35px !important;
-  color: #ec6c2a !important;
-  margin-bottom: 1%;
-  font-family: 微軟正黑體;
-  line-height: 45px;
-}
-div.place-description h1:after,
-h2.more-view:after {
-    display: block;
-    width: 69px;
-    height: 3px;
-    background: #eb6100;
-    content: " "
-}
 
-/*FAQ區域*/
+                    div.place-description {
+                        padding: 30px 5% 0;
+                        font-family: 微軟正黑體;
+                    }
+
+                    div.place-description h1,
+                    h2.more-view {
+                        margin-top: 1px;
+                        font-size: 35px !important;
+                        color: #ec6c2a !important;
+                        margin-bottom: 1%;
+                        font-family: 微軟正黑體;
+                        line-height: 45px;
+                    }
+
+                    div.place-description h1:after,
+                    h2.more-view:after {
+                        display: block;
+                        width: 90px;
+                        height: 3px;
+                        background: #eb6100;
+                        content: " "
+                    }
+
+                    div.place-description p {
+                        letter-spacing: 0.5px;
+                        line-height: 25px;
+                    }
+
+                    h2.more-view {
+                        color: #005bac;
+                        font-size: 26px;
+                        text-align: line-height: 50px;
+                        letter-spacing: 1px;
+                        border: border-bottom: 2px solid #005bac;
+                    }
+
+
+/*FAQ*/
 div#arno-faq {
-  width: 1080px;
-  max-width: 90%;
-  margin: 15px auto 0;
-  clear: both;
-  background-color: #FFF;
-  padding-right: 20px;
+    width: 1080px;
+    max-width: 90%;
+    margin: 15px auto 0;
+    clear: both;
+    background-color: #FFF;
+    padding-right: 20px;
 }
 
 div#arno-faq h4 {
-  border-left: 2px solid #eb6100;
-  padding: 10px 0 10px 15px;
-  margin: 0;
-  font-weight: bold;
+    border-left: 2px solid #eb6100;
+    padding: 10px 0 10px 15px;
+    margin: 0;
+    font-weight: bold;
 }
 
 div#arno-faq h4 span {
-  color: #eb6100;
-  margin-right: 10px;
+    color: #eb6100;
+    margin-right: 10px;
 }
 
 div#arno-faq p {
-  border-left: 2px solid #555;
-  color: #555;
-  padding: 10px 0 10px 15px;
-  font-size: 16px;
+    border-left: 2px solid #555;
+    color: #555;
+    padding: 10px 0 10px 15px;
+    font-size: 16px;
 }
 
 div#arno-faq p span {
-  color: #999;
-  margin-right: 10px;
+    color: #999;
+    margin-right: 10px;
 }
